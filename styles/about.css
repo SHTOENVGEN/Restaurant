@@ -8,10 +8,19 @@ div.banner_container {
 
 div.intro {
     height: 80vh;
-    padding: 3rem 5rem;
+    /* padding: 3rem 5rem; */
+    padding: 3rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    div.intro {
+        height: fit-content;
+    }
 }

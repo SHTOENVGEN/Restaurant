@@ -22,3 +22,9 @@ div.opener button {
     border-radius: 25px;
     font-family: 'Anton', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    div.opener {
+        height: fit-content;
+    };
+}

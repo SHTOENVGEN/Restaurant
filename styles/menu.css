@@ -55,4 +55,13 @@ div.menu_section ul.menu_subsection li {
     div.menu_container {
         grid-template-columns: 1fr;
     };
+
+    /* #second {
+        border: transparent;
+    } */
+
+    /* div.menu_subcontainer {
+        border-top: 0;
+        border-bottom: 0;
+    } */
 }

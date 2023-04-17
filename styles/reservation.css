@@ -4,3 +4,36 @@ div.main_container {
     background: url(../images/reservation.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
+div.content_container {
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div.form_container {
+    border: 2px solid green;
+} */
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border: 2px solid red; */
+}
+
+form label {
+    padding: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    div.content_container, div.form_container, form {
+        height: fit-content;
+    }
+    
+    /* form {
+        height: fit-content;
+    } */
+}
