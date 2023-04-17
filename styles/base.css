@@ -66,9 +66,9 @@ nav ul li {
 
 /* content */
 
-main {
+/* main {
     border: 2px solid yellow;
-}
+} */
 
 div.main_container {
     height: 100vh;
@@ -76,6 +76,20 @@ div.main_container {
     justify-content: center;
     align-items: center;
 }
+
+div.main_container h1, div.banner_container h1,p {
+    text-shadow: 2px 2px whitesmoke;
+}
+
+div.banner_container {
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* footer */
 
 footer {

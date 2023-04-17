@@ -1,5 +1,6 @@
 @import url(./base.css);
 
 div.main_container {
-    background: url(../images/reservation.jpg);
+    background: url(../images/reservation.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
