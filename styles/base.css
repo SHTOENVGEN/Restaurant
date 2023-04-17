@@ -1,0 +1,99 @@
+/* root */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+/* body */
+
+body {
+    background: whitesmoke;
+    font-family: 'Anton', sans-serif;
+}
+
+/* navigation */
+
+nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    /* background: rgba(0, 0, 0, 0.2); */
+    background: rgba(0, 0, 0, 1);
+    /* border: 2px solid blue; */
+    font-family: 'Anton', sans-serif;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+div.logo {
+    /* border: 2px solid orange; */
+    display: flex;
+    align-self: center;
+}
+
+/* div.logo h1 a {
+    text-decoration: none;
+    color: aliceblue;
+} */
+
+/* div.logo h1 a:visited {
+    text-decoration: none;
+} */
+
+nav ul {
+    border: 2px solid black;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* content */
+
+main {
+    border: 2px solid yellow;
+}
+
+div.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+
+footer {
+    padding: 8px;
+    background: rgba(0, 0, 0, 1);
+    font-family: 'Anton', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer ul a:visited {
+    text-decoration: none;
+}

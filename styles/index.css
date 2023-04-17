@@ -1,0 +1,24 @@
+@import url(./base.css);
+
+div.main_container {
+    background: url(../images/home.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+div.opener {
+    border: 2px solid black;
+    height: 50vh;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.opener button {
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Anton', sans-serif;
+}

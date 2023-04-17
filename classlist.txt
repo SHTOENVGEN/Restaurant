@@ -1,0 +1,37 @@
+gage & tollner
+menu classes
+
+main.content_container
+    div.banner_container
+    div.menu_notes
+    div.menu_container
+        div.menu_subcontainer
+            div.menu_section
+                div.menu_header
+                    h2
+                ul.menu_subsection
+                    li.menu_item
+                        p.menu_item_name
+                        p.menu_item_ingredients
+                        p.menu_item_options
+                        p.menu_item_price
+                        p.menu_item_addon
+            div.menu_notes
+                p
+
+
+reservation classes
+
+div.content_container
+    div.form_container
+        form
+            fieldset#name
+
+            
+            first name last name
+            phone number
+            email
+            date required
+            time required
+            number of people optional
+

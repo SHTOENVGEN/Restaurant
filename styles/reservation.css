@@ -1,0 +1,5 @@
+@import url(./base.css);
+
+div.main_container {
+    background: url(../images/reservation.jpg);
+}
