@@ -6,7 +6,7 @@ div.banner_container {
 }
 
 div.menu_notes {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 30vh;
     padding: 1rem;
     display: flex;
@@ -20,14 +20,19 @@ div.menu_notes p {
 }
 
 div.menu_container {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* grid-template-columns: repeat(autofit, minmax(min(100%, 400px), 1fr)); */
 }
 
 div.menu_subcontainer {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
+    border: 2px solid black;
+}
+
+#first {
+    border-right: 2px solid black;
 }
 
 div.menu_section {
@@ -36,7 +41,7 @@ div.menu_section {
 
 div.menu_header {
     /* line-height: 2rem; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-bottom: 1rem;
 }
 
